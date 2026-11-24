@@ -1,0 +1,30 @@
+# Sales, Product & What-If Analysis Dashboard (Power BI)
+
+An interactive multi-page **Power BI** report analyzing sales, quantities, orders, profit, sub-category performance, and What-If scenarios across `2014`–`2017`, featuring custom navigation, a decomposition breakdown, and a report tooltip page.
+
+## 🎥 Video Walkthrough
+Watch the demo video here: [Watch Video](https://youtu.be/FYW4VTgFLxU)
+
+---
+
+## 📌 Dashboard Sections & Key Features
+
+### 1. Sales Over View
+- **KPIs:** Total Quantity (`38K`), Total Sales (`2.30M`), Total Orders (`9.994K`), and Profit (`286.40K`).
+- **Slicers & Visuals:** Year (`2014`–`2017`), `Segment`, `Region`, and `Ship Mode` filters, paired with sales breakdowns by ship mode, segment, region, and month.
+
+### 2. Product Analysis
+- **Sub-Category Trends & Volume:** Tracks monthly sales lines across sub-categories and quantity sold per sub-category.
+- **Sales vs. Profit Matrix:** Visualizes the relationship between sales and profit across sub-categories.
+
+### 3. What IF Analysis ?
+- **Interactive Parameters:** Sliders for adjusting scenario parameters and inspecting impact on `SUM of Sales`, `Profit by Quantity`, `Profit by Quarter`, and **Actual vs. Projected Profit & Sales** across `Technology`, `Office Supplies`, and `Furniture`.
+
+### 4. Breakdown, YoY Gauge & Tooltip
+- **Hierarchical Breakdown:** Multi-level breakdown across `Segment`, `Category`, and `Sub-Category`.
+- **YoY Gauge & Custom Tooltip:** Displays sales progress (`2.30M` against `4.59M`) along with a dedicated tooltip page (`tooltip`).
+
+---
+
+## 🛠️ Tools & Techniques
+- **Power BI Desktop** (What-If Parameters, DAX Measures, Decomposition Tree, Report Page Tooltips, Slicers & Page Navigation)
